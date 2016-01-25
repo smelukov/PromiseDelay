@@ -1,0 +1,27 @@
+{
+  "name": "promise-ext-delay",
+  "description": "Simple delay promise",
+  "main": "build/promiseDelay.min.js",
+  "authors": [
+    "Sergey Melyukov"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "promise",
+    "es6",
+    "delay"
+  ],
+  "homepage": "https://github.com/smelukov/PromiseDelay",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

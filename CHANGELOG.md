@@ -1,3 +1,7 @@
+## 1.0.3 - 25.01.2016
+
+- [NEW] bower support
+
 ## 1.0.2 - 25.01.2016
 
 - [FIX] package.json
