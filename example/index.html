@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.22/require.min.js"></script>
+</head>
+<body>
+<script>
+    require(['../build/promiseDelay.min'], function(PromiseDelay) {
+        PromiseDelay();
+
+        Promise.delay().then(function() {
+            alert('it works!');
+
+            return 'it can pass promise value as well!';
+        }).delay(500).then(function(value) {
+            alert(value);
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "name": "promise-ext-delay",
+  "version": "1.0.0",
+  "description": "Simple delay promise",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smelukov/PromiseDelay.git"
+  },
+  "keywords": [
+    "promise",
+    "es6",
+    "delay"
+  ],
+  "author": "Sergey Melyukov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smelukov/PromiseDelay/issues"
+  },
+  "homepage": "https://github.com/smelukov/PromiseDelay#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-header": "^1.7.1",
+    "gulp-jscs": "^3.0.2",
+    "gulp-mocha": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "jscs": "^2.8.0",
+    "mocha": "^2.3.4"
+  }
+}
