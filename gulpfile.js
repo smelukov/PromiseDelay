@@ -21,7 +21,7 @@ gulp.task('jscs', function() {
 });
 
 gulp.task('tests', function() {
-	return gulp.src('tests/**/*.js')
+	return gulp.src('test/**/*.js')
 		.pipe(mocha());
 });
 

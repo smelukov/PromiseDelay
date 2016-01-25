@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/smelukov/PromiseDelay.svg?branch=master)](https://travis-ci.org/smelukov/PromiseDelay)
+
 # PromiseDelay
 Simple delay promise.
 
