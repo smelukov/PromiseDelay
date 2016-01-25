@@ -1,10 +1,10 @@
 {
   "name": "promise-ext-delay",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple delay promise",
   "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests"
   },
   "repository": {
     "type": "git",
