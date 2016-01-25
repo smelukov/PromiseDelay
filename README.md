@@ -1,6 +1,13 @@
 # PromiseDelay
 Simple delay promise.
 
+### Usage
+```javascript
+require('promise-ext-delay')();
+
+Promise.delay(1000).then(function(){...})
+```
+
 ### Description
 This is realization of a small and simple delay promise, that supports CommonJS, AMD ang non-module definition.
 
